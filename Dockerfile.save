@@ -1,0 +1,5 @@
+FROM python:3.6.7
+WORKDIR /app
+ADD . /app
+RUN pip install -r require.txt
+CMD ["python" , "~/Desktop/webscrape.py"]
